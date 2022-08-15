@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+      integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <nav class="page-header__navbar">
+          <ul class="page-header__navlist list">
+            <li class="page-header__navbaritem">
+              <a href="#" class="page-header__navbarlink">
+                <p class="page-header__navbaritemname">SHOP</p>
+                <svg class="arrowdown-icon" width="10" height="8">
+                  <use href="./images/svg/sprite.svg#arrowdown-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__navbaritem">
+              <a href="#" class="page-header__navbarlink"> STYLE QUIZ</a>
+            </li>
+            <li class="page-header__navbaritem">
+              <a href="#" class="page-header__navbarlink"> ABOUT US</a>
+            </li>
+            <li class="page-header__navbaritem">
+              <a href="#" class="page-header__navbarlink">
+                <p class="page-header__navbaritemname">STORIES</p>
+
+                <svg class="arrowdown-icon" width="10" height="8">
+                  <use href="./images/svg/sprite.svg#arrowdown-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="page-header__logo">
+          <img src="./images/KINN.jpg" alt="kinn logo" />
+        </div>
+
+        <div class="page-header_userbar">
+          <ul class="page-header__userbarlist list">
+            <li class="page-header__userbaritem">
+              <a href="#" class="page-header_userbaricon">
+                <svg width="32" height="32">
+                  <use href="./images/svg/sprite.svg#icon-user-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__userbaritem">
+              <a href="#" class="page-header_userbaricon">
+                <svg width="32" height="32">
+                  <use href="./images/svg/sprite.svg#icon-search-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__userbaritem">
+              <a href="#" class="page-header_userbaricon">
+                <svg width="32" height="32">
+                  <use href="./images/svg/sprite.svg#icon-bag-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="section hero">
+          <div class="hero__wrapper">
+            <h2 class="hero__title">ALL COLLECTIONS</h2>
+            <p class="hero__text">Elevate Your Everyday</p>
+            <button class="hero__button">SHOP NOW</button>
+          </div>
+        </section>
+
+        <section class="shop-all">
+          <div class="shop-all__text">
+            If your happy place is at the dinner table, we totally get that.
+            That’s why we created products to help you find slow moments in a
+            fast world.
+          </div>
+          <div class="shop-all__navigation">
+            <a href="#" class="shopp-all__item"
+              >Shop All <span>&#8594;</span></a
+            >
+            <a href="#" class="shopp-all__item"
+              >Read Stories <span>&#8594;</span></a
+            >
+          </div>
+        </section>
+
+        <section class="section collection" id="shop">
+          <h2 class="collection__title">Maple Board Collection</h2>
+          <ul class="collection__cards list">
+            <li class="collection__card">
+              <img
+                class="collection__imageitem"
+                src="./images/Maple Board - Short.jpg"
+                alt="Maple Board - Short"
+              />
+              <p class="collection__labelitem">Maple Board - Short</p>
+              <p class="collection__priceitem">$98.00</p>
+            </li>
+            <li class="collection__card">
+              <img
+                class="collection__imageitem"
+                src="./images/Maple Board - long.jpg"
+                alt="Maple Board - long"
+              />
+              <p class="collection__labelitem">Maple Board - Long</p>
+              <p class="collection__priceitem">$125.00</p>
+            </li>
+            <li class="collection__card">
+              <img
+                class="collection__imageitem"
+                src="./images/Maple Board - Wide.jpg"
+                alt="Maple Board - Wide"
+              />
+              <p class="collection__labelitem">Maple Board - Wide</p>
+              <p class="collection__priceitem">$158.00</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section essentials">
+          <h2 class="essentials__title">THE ESSENTIALS</h2>
+          <p class="essentials__text">
+            We believe minimalism means more. More space, more time, more
+            meaningful moments.
+          </p>
+        </section>
+
+        <section class="section designstory" id="designstory">
+          <img
+            class="designstory__image"
+            src="./images/desighnStory.jpg"
+            alt="shelf with plates and cups"
+            height="618"
+            width="743"
+          />
+          <div class="designstory__wrapper">
+            <h2 class="designstory__title">Our Design Story</h2>
+            <div class="line"></div>
+            <p class="designstory__text">
+              We believe in thoughtful, intentional living. So we promise not to
+              clutter your cabinets with one-off pieces you’ll rarely use. Our
+              collection only includes items you’ll reach for every day. Because
+              mindful living should be simple, not stressful.
+            </p>
+          </div>
+        </section>
+
+        <section class="section tabledish" id="dishes">
+          <div class="tabledish__wrapper">
+            <h2 class="tabledish__title">Your Table Your Time</h2>
+            <div class="line"></div>
+            <p class="tabledish__text">
+              Our modern lives keep us in constant motion. But what keeps us
+              moving isn’t always what moves us. Our time at the table is our
+              pause button. Meals can become moments and moments can become
+              memories. So grab a plate, pull up a seat, and stay a while
+            </p>
+          </div>
+          <img src="./images/table.jpg" alt="plates with dishes" />
+        </section>
+
+        <section class="section subscribe">
+          <h2 class="subscribe__title">Sign up to our newsletter</h2>
+
+          <p class="subscribe__text">
+            Receive special offers and first look at new products.
+          </p>
+          <div class="sunscribe__block">
+            <input type="text" class="subscribe__input" />
+            <button type="button" class="subscribe__button">Subscribe</button>
+          </div>
+        </section>
+
+        <section class="section moments">
+          <h2 class="moments__title">#KinnMoments</h2>
+          <ul class="moments__imagelist list">
+            <li class="moments__imageitem">
+              <a href="#designstory">
+                <img
+                  src="./images/minishelfes.jpg"
+                  width="320"
+                  height="320"
+                  alt="mini shelfs"
+              /></a>
+            </li>
+            <li class="moments__imageitem">
+              <a href="#">
+                <img
+                  src="./images/miniapples.jpg"
+                  width="320"
+                  height="320"
+                  alt="mini plate with apples"
+              /></a>
+            </li>
+            <li class="moments__imageitem">
+              <a href="#">
+                <img
+                  src="./images/minitable.jpg"
+                  width="320"
+                  height="320"
+                  alt="mini table"
+                />
+              </a>
+            </li>
+            <li class="moments__imageitem">
+              <a href="#dishes">
+                <img
+                  src="./images/minidishes.jpg"
+                  width="320"
+                  height="320"
+                  alt="mini dishes"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts">
+          <p class="page-footer__copyright-text">© 2021 Kinn Home</p>
+          <img class="page-footer__line" src="./images/line.jpg" alt="line" />
+          <p>
+            Need to get in touch? Just email us at
+            <a href="mailto" :hello@kinnhome.com></a> hello@kinnhome.com
+          </p>
+        </div>
+
+        <!-- EXPLORE -->
+        <div class="page-footer__explore">
+          <h3 class="page-footer__explore-title">EXPLORE</h3>
+          <img class="page-footer__line" src="./images/line.jpg" alt="line" />
+          <ul class="page-footer__explore list">
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link">
+                <p class="page-footer__item-name">SHOP</p>
+                <svg class="arrowdown-icon" width="10" height="8">
+                  <use href="./images/svg/sprite.svg#arrowdown-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link"> STYLE QUIZ</a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link"> ABOUT US</a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link">
+                <p class="page-footer__item-name">STORIES</p>
+
+                <svg class="arrowdown-icon" width="10" height="8">
+                  <use href="./images/svg/sprite.svg#arrowdown-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- HELP -->
+        <div class="page-footer__help">
+          <h3 class="page-footer__help-title">HELP</h3>
+          <img class="page-footer__line" src="./images/line.jpg" alt="line" />
+          <ul class="page-footer__help list">
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link"> FAQs + Shipping</a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link"> Contact</a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link">
+                <p class="page-footer__itemname">Terms</p>
+              </a>
+            </li>
+            <li class="page-footer__item">
+              <a href="#" class="page-footer__link">
+                <p class="page-footer__itemname">Trade</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SOCIAL -->
+        <div class="page-footer__social">
+          <ul class="list page-footer__socisl-list">
+            <li>
+              <a class="page-footer__social-icon" href="https://facbook.com">
+                <svg class="arrowdown-icon" width="16" height="23">
+                  <use
+                    href="./images/svg/sprite.svg#icon-facebook-icon"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                class="page-footer__social-icon"
+                href="https://ru.pinterest.com"
+              >
+                <svg class="arrowdown-icon" width="22" height="22">
+                  <use
+                    href="./images/svg/sprite.svg#icon-pinterest-icon"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="page-footer__social-icon" href="https://instagram.com">
+                <svg class="arrowdown-icon" width="22" height="22">
+                  <use
+                    href="./images/svg/sprite.svg#icon-instagram-icon"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
